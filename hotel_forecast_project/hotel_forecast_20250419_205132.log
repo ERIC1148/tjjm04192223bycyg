@@ -1,0 +1,23 @@
+2025-04-19 20:51:32,381 - __main__ - INFO - Step 1: Generating mock hotel data...
+2025-04-19 20:51:32,696 - __main__ - INFO - Mock hotel data generated.
+2025-04-19 20:51:32,696 - __main__ - INFO - 
+Step 2: Generating POI data...
+2025-04-19 20:51:34,161 - src.utils.data_collection - INFO - 获取区域 (31.24, 31.18, 121.54, 121.46) 的POI数据...
+2025-04-19 20:51:34,161 - src.utils.data_collection - ERROR - 获取POI数据时出错: module 'osmnx' has no attribute 'geometries_from_bbox'
+2025-04-19 20:51:34,218 - pyogrio._io - INFO - Created 200 records
+2025-04-19 20:51:34,221 - __main__ - INFO - POI data generated.
+2025-04-19 20:51:34,221 - __main__ - INFO - 
+Step 3: Generating weather and holiday data...
+2025-04-19 20:51:34,221 - src.utils.data_collection - INFO - 获取Shanghai从2023-01-01到2023-12-31的天气数据...
+2025-04-19 20:51:34,228 - src.utils.data_collection - INFO - 天气数据已保存到: data/raw/weather_data.csv
+2025-04-19 20:51:34,228 - __main__ - INFO - Weather data generated.
+2025-04-19 20:51:34,228 - __main__ - INFO - Holiday data already exists, skipping generation.
+2025-04-19 20:51:34,229 - __main__ - INFO - 
+Step 4: Preprocessing data and training models...
+2025-04-19 20:51:34,234 - __main__ - ERROR - Pipeline failed: source code string cannot contain null bytes
+Traceback (most recent call last):
+  File "D:\cyg\统计建模new\hotel_forecast_project\run_pipeline.py", line 58, in main
+    import train_models
+  File "D:\cyg\统计建模new\hotel_forecast_project\train_models.py", line 16, in <module>
+    from src.models.train_models import train_spatial_temporal_model, train_location_model
+SyntaxError: source code string cannot contain null bytes

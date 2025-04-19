@@ -1,0 +1,79 @@
+2025-04-19 21:12:22,630 - src.utils.data_preprocessing - INFO - 开始预处理酒店数据...
+2025-04-19 21:12:22,631 - src.utils.data_preprocessing - INFO - 处理缺失值...
+2025-04-19 21:12:22,633 - src.utils.data_preprocessing - INFO - 缺失值情况: {'agent': 204, 'company': 4455}
+2025-04-19 21:12:22,640 - src.utils.data_preprocessing - INFO - 填充缺失值: agent 使用中位数 11.0
+2025-04-19 21:12:22,641 - src.utils.data_preprocessing - INFO - 填充缺失值: company 使用中位数 5.0
+2025-04-19 21:12:22,644 - src.utils.data_preprocessing - INFO - 处理异常值...
+2025-04-19 21:12:22,645 - src.utils.data_preprocessing - INFO - 发现异常高的平均每日房价 (>499.3026499886603): 5 条记录
+2025-04-19 21:12:22,647 - src.utils.data_preprocessing - INFO - 转换分类变量...
+2025-04-19 21:12:22,649 - src.utils.data_preprocessing - INFO - 创建日期特征...
+2025-04-19 21:12:22,650 - src.utils.data_preprocessing - INFO - 创建完整到达日期...
+2025-04-19 21:12:22,655 - src.utils.data_preprocessing - ERROR - 数据预处理出错: day is out of range for month, at position 132. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-04-19 21:13:12,024 - src.utils.data_preprocessing - INFO - 开始预处理酒店数据...
+2025-04-19 21:13:12,025 - src.utils.data_preprocessing - INFO - 处理缺失值...
+2025-04-19 21:13:12,027 - src.utils.data_preprocessing - INFO - 缺失值情况: {'agent': 204, 'company': 4455}
+2025-04-19 21:13:12,029 - src.utils.data_preprocessing - INFO - 填充缺失值: agent 使用中位数 11.0
+2025-04-19 21:13:12,030 - src.utils.data_preprocessing - INFO - 填充缺失值: company 使用中位数 5.0
+2025-04-19 21:13:12,032 - src.utils.data_preprocessing - INFO - 处理异常值...
+2025-04-19 21:13:12,034 - src.utils.data_preprocessing - INFO - 发现异常高的平均每日房价 (>499.3026499886603): 5 条记录
+2025-04-19 21:13:12,034 - src.utils.data_preprocessing - INFO - 转换分类变量...
+2025-04-19 21:13:12,036 - src.utils.data_preprocessing - INFO - 创建日期特征...
+2025-04-19 21:13:12,036 - src.utils.data_preprocessing - INFO - 创建完整到达日期...
+2025-04-19 21:13:12,039 - src.utils.data_preprocessing - ERROR - 数据预处理出错: day is out of range for month, at position 132. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-04-19 21:14:23,027 - src.utils.data_preprocessing - INFO - 开始预处理酒店数据...
+2025-04-19 21:14:23,028 - src.utils.data_preprocessing - INFO - 处理缺失值...
+2025-04-19 21:14:23,031 - src.utils.data_preprocessing - INFO - 缺失值情况: {'agent': 204, 'company': 4455}
+2025-04-19 21:14:23,034 - src.utils.data_preprocessing - INFO - 填充缺失值: agent 使用中位数 11.0
+2025-04-19 21:14:23,037 - src.utils.data_preprocessing - INFO - 填充缺失值: company 使用中位数 5.0
+2025-04-19 21:14:23,042 - src.utils.data_preprocessing - INFO - 处理异常值...
+2025-04-19 21:14:23,044 - src.utils.data_preprocessing - INFO - 发现异常高的平均每日房价 (>499.3026499886603): 5 条记录
+2025-04-19 21:14:23,045 - src.utils.data_preprocessing - INFO - 转换分类变量...
+2025-04-19 21:14:23,047 - src.utils.data_preprocessing - INFO - 创建日期特征...
+2025-04-19 21:14:23,048 - src.utils.data_preprocessing - INFO - 创建完整到达日期...
+2025-04-19 21:14:23,052 - src.utils.data_preprocessing - ERROR - 数据预处理出错: day is out of range for month, at position 132. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-04-19 21:20:33,503 - src.utils.data_preprocessing - INFO - 开始预处理酒店数据...
+2025-04-19 21:20:33,504 - src.utils.data_preprocessing - INFO - 处理缺失值...
+2025-04-19 21:20:33,506 - src.utils.data_preprocessing - INFO - 缺失值情况: {'agent': 204, 'company': 4455}
+2025-04-19 21:20:33,508 - src.utils.data_preprocessing - INFO - 填充缺失值: agent 使用中位数 11.0
+2025-04-19 21:20:33,509 - src.utils.data_preprocessing - INFO - 填充缺失值: company 使用中位数 5.0
+2025-04-19 21:20:33,511 - src.utils.data_preprocessing - INFO - 处理异常值...
+2025-04-19 21:20:33,512 - src.utils.data_preprocessing - INFO - 发现异常高的平均每日房价 (>499.3026499886603): 5 条记录
+2025-04-19 21:20:33,513 - src.utils.data_preprocessing - INFO - 转换分类变量...
+2025-04-19 21:20:33,514 - src.utils.data_preprocessing - INFO - 创建日期特征...
+2025-04-19 21:20:33,515 - src.utils.data_preprocessing - INFO - 创建完整到达日期...
+2025-04-19 21:20:33,518 - src.utils.data_preprocessing - ERROR - 数据预处理出错: day is out of range for month, at position 132. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-04-19 21:32:08,791 - src.models.spatial_temporal_model - INFO - 模型初始化完成，使用设备: cpu
+2025-04-19 21:32:08,800 - src.models.spatial_temporal_model - INFO - 开始训练，总epochs: 5
+2025-04-19 21:39:11,209 - src.models.spatial_temporal_model - INFO - 模型初始化完成，使用设备: cpu
+2025-04-19 21:39:11,210 - src.models.spatial_temporal_model - INFO - 开始训练，总epochs: 5
+2025-04-19 21:39:46,093 - src.models.spatial_temporal_model - INFO - 模型初始化完成，使用设备: cpu
+2025-04-19 21:39:46,094 - src.models.spatial_temporal_model - INFO - 开始训练，总epochs: 5
+2025-04-19 21:40:06,729 - src.models.location_selection_model - INFO - 初始化xgboost选址模型
+2025-04-19 21:40:06,729 - src.models.location_selection_model - INFO - 开始训练xgboost选址模型，特征数量: 12
+2025-04-19 21:43:09,120 - src.models.spatial_temporal_model - INFO - 模型初始化完成，使用设备: cpu
+2025-04-19 21:43:09,121 - src.models.spatial_temporal_model - INFO - 开始训练，总epochs: 5
+2025-04-19 21:43:09,152 - src.models.spatial_temporal_model - INFO - 批次 0/125, 损失: nan
+2025-04-19 21:43:09,278 - src.models.spatial_temporal_model - INFO - 批次 10/125, 损失: nan
+2025-04-19 21:43:09,390 - src.models.spatial_temporal_model - INFO - 批次 20/125, 损失: nan
+2025-04-19 21:43:09,480 - src.models.spatial_temporal_model - INFO - 批次 30/125, 损失: nan
+2025-04-19 21:43:09,576 - src.models.spatial_temporal_model - INFO - 批次 40/125, 损失: nan
+2025-04-19 21:43:09,669 - src.models.spatial_temporal_model - INFO - 批次 50/125, 损失: nan
+2025-04-19 21:43:09,761 - src.models.spatial_temporal_model - INFO - 批次 60/125, 损失: nan
+2025-04-19 21:43:09,858 - src.models.spatial_temporal_model - INFO - 批次 70/125, 损失: nan
+2025-04-19 21:43:09,950 - src.models.spatial_temporal_model - INFO - 批次 80/125, 损失: nan
+2025-04-19 21:43:10,059 - src.models.spatial_temporal_model - INFO - 批次 90/125, 损失: nan
+2025-04-19 21:43:10,152 - src.models.spatial_temporal_model - INFO - 批次 100/125, 损失: nan
+2025-04-19 21:43:10,252 - src.models.spatial_temporal_model - INFO - 批次 110/125, 损失: nan
+2025-04-19 21:43:10,347 - src.models.spatial_temporal_model - INFO - 批次 120/125, 损失: nan

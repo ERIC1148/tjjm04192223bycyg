@@ -1,0 +1,18 @@
+2025-04-19 20:59:06,435 - __main__ - INFO - Step 1: Generating mock hotel data...
+2025-04-19 20:59:06,436 - __main__ - INFO - Hotel data already exists, skipping generation.
+2025-04-19 20:59:06,436 - __main__ - INFO - 
+Step 2: Generating POI data...
+2025-04-19 20:59:06,436 - __main__ - INFO - POI data already exists, skipping generation.
+2025-04-19 20:59:06,437 - __main__ - INFO - 
+Step 3: Generating weather and holiday data...
+2025-04-19 20:59:08,046 - __main__ - INFO - Weather data already exists, skipping generation.
+2025-04-19 20:59:08,047 - __main__ - INFO - Holiday data already exists, skipping generation.
+2025-04-19 20:59:08,047 - __main__ - INFO - 
+Step 4: Preprocessing data and training models...
+2025-04-19 20:59:08,058 - __main__ - ERROR - Pipeline failed: source code string cannot contain null bytes
+Traceback (most recent call last):
+  File "D:\cyg\统计建模new\hotel_forecast_project\run_pipeline.py", line 58, in main
+    import train_models
+  File "D:\cyg\统计建模new\hotel_forecast_project\train_models.py", line 16, in <module>
+    from src.models.train_models import train_spatial_temporal_model, train_location_model
+SyntaxError: source code string cannot contain null bytes
