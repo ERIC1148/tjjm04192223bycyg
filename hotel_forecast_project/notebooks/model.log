@@ -77,3 +77,107 @@
 2025-04-19 21:43:10,152 - src.models.spatial_temporal_model - INFO - 批次 100/125, 损失: nan
 2025-04-19 21:43:10,252 - src.models.spatial_temporal_model - INFO - 批次 110/125, 损失: nan
 2025-04-19 21:43:10,347 - src.models.spatial_temporal_model - INFO - 批次 120/125, 损失: nan
+2025-04-22 16:42:59,921 - src.models.spatial_temporal_model - INFO - 模型初始化完成，使用设备: cpu
+2025-04-22 16:42:59,922 - src.models.spatial_temporal_model - INFO - 开始训练，总epochs: 5
+2025-04-22 16:42:59,983 - src.models.spatial_temporal_model - INFO - 批次 0/125, 损失: nan
+2025-04-22 16:43:00,122 - src.models.spatial_temporal_model - INFO - 批次 10/125, 损失: nan
+2025-04-22 16:43:00,239 - src.models.spatial_temporal_model - INFO - 批次 20/125, 损失: nan
+2025-04-22 16:43:00,354 - src.models.spatial_temporal_model - INFO - 批次 30/125, 损失: nan
+2025-04-22 16:43:00,475 - src.models.spatial_temporal_model - INFO - 批次 40/125, 损失: nan
+2025-04-22 16:43:00,586 - src.models.spatial_temporal_model - INFO - 批次 50/125, 损失: nan
+2025-04-22 16:43:00,694 - src.models.spatial_temporal_model - INFO - 批次 60/125, 损失: nan
+2025-04-22 16:43:00,801 - src.models.spatial_temporal_model - INFO - 批次 70/125, 损失: nan
+2025-04-22 16:43:00,906 - src.models.spatial_temporal_model - INFO - 批次 80/125, 损失: nan
+2025-04-22 16:43:01,006 - src.models.spatial_temporal_model - INFO - 批次 90/125, 损失: nan
+2025-04-22 16:43:01,108 - src.models.spatial_temporal_model - INFO - 批次 100/125, 损失: nan
+2025-04-22 16:43:01,212 - src.models.spatial_temporal_model - INFO - 批次 110/125, 损失: nan
+2025-04-22 16:43:01,318 - src.models.spatial_temporal_model - INFO - 批次 120/125, 损失: nan
+2025-04-22 17:36:59,783 - src.models.spatial_temporal_model - INFO - 模型初始化完成，使用设备: cpu
+2025-04-22 17:36:59,784 - src.models.spatial_temporal_model - INFO - 开始训练，总epochs: 5
+2025-04-22 17:36:59,806 - src.models.spatial_temporal_model - INFO - 批次 0/125, 损失: nan
+2025-04-22 17:36:59,923 - src.models.spatial_temporal_model - INFO - 批次 10/125, 损失: nan
+2025-04-22 17:37:00,035 - src.models.spatial_temporal_model - INFO - 批次 20/125, 损失: nan
+2025-04-22 17:37:00,138 - src.models.spatial_temporal_model - INFO - 批次 30/125, 损失: nan
+2025-04-22 17:37:00,244 - src.models.spatial_temporal_model - INFO - 批次 40/125, 损失: nan
+2025-04-22 17:37:00,347 - src.models.spatial_temporal_model - INFO - 批次 50/125, 损失: nan
+2025-04-22 17:37:00,447 - src.models.spatial_temporal_model - INFO - 批次 60/125, 损失: nan
+2025-04-22 17:37:00,548 - src.models.spatial_temporal_model - INFO - 批次 70/125, 损失: nan
+2025-04-22 17:37:00,657 - src.models.spatial_temporal_model - INFO - 批次 80/125, 损失: nan
+2025-04-22 17:37:00,764 - src.models.spatial_temporal_model - INFO - 批次 90/125, 损失: nan
+2025-04-22 17:37:00,869 - src.models.spatial_temporal_model - INFO - 批次 100/125, 损失: nan
+2025-04-22 17:37:00,972 - src.models.spatial_temporal_model - INFO - 批次 110/125, 损失: nan
+2025-04-22 17:37:01,074 - src.models.spatial_temporal_model - INFO - 批次 120/125, 损失: nan
+2025-04-22 17:57:36,328 - src.models.location_selection_model - INFO - 初始化xgboost选址模型
+2025-04-22 17:57:36,328 - src.models.location_selection_model - INFO - 开始训练xgboost选址模型，特征数量: 12
+2025-04-22 18:08:27,645 - src.models.location_selection_model - INFO - 初始化xgboost选址模型
+2025-04-22 18:08:27,646 - src.models.location_selection_model - INFO - 开始训练xgboost选址模型，特征数量: 12
+2025-04-22 18:08:43,401 - src.models.location_selection_model - INFO - 模型已保存到: ../data/models/location_model.pkl
+2025-04-22 18:14:45,137 - src.utils.eda - INFO - 统计摘要已保存到 ../reports/eda\summary_stats.json
+2025-04-22 18:14:48,664 - src.utils.eda - INFO - 分布图已保存到 ../reports/eda\distributions.png
+2025-04-22 18:14:48,926 - src.utils.eda - INFO - 目标相关性图已保存到 ../reports/eda\target_correlations.png
+2025-04-22 18:14:49,233 - src.utils.eda - INFO - 空间分布图已保存到 ../reports/eda\spatial_distribution.png
+2025-04-22 18:14:49,746 - src.utils.eda - INFO - 时间序列图已保存到 ../reports/eda\time_series.png
+2025-04-22 18:14:49,747 - src.utils.eda - INFO - 分析报告已生成到目录: ../reports/eda
+2025-04-22 18:15:25,552 - src.models.spatial_temporal_model - INFO - 模型初始化完成，使用设备: cpu
+2025-04-22 18:15:25,553 - src.models.spatial_temporal_model - INFO - 开始训练，总epochs: 10
+2025-04-22 18:15:25,590 - src.models.spatial_temporal_model - INFO - 批次 0/125, 损失: nan
+2025-04-22 18:15:25,771 - src.models.spatial_temporal_model - INFO - 批次 10/125, 损失: nan
+2025-04-22 18:15:25,939 - src.models.spatial_temporal_model - INFO - 批次 20/125, 损失: nan
+2025-04-22 18:15:26,105 - src.models.spatial_temporal_model - INFO - 批次 30/125, 损失: nan
+2025-04-22 18:15:26,293 - src.models.spatial_temporal_model - INFO - 批次 40/125, 损失: nan
+2025-04-22 18:15:26,463 - src.models.spatial_temporal_model - INFO - 批次 50/125, 损失: nan
+2025-04-22 18:15:26,634 - src.models.spatial_temporal_model - INFO - 批次 60/125, 损失: nan
+2025-04-22 18:15:26,803 - src.models.spatial_temporal_model - INFO - 批次 70/125, 损失: nan
+2025-04-22 18:15:26,970 - src.models.spatial_temporal_model - INFO - 批次 80/125, 损失: nan
+2025-04-22 18:15:27,138 - src.models.spatial_temporal_model - INFO - 批次 90/125, 损失: nan
+2025-04-22 18:15:27,311 - src.models.spatial_temporal_model - INFO - 批次 100/125, 损失: nan
+2025-04-22 18:15:27,483 - src.models.spatial_temporal_model - INFO - 批次 110/125, 损失: nan
+2025-04-22 18:15:27,653 - src.models.spatial_temporal_model - INFO - 批次 120/125, 损失: nan
+2025-04-22 18:21:49,729 - src.utils.eda - INFO - 统计摘要已保存到 ../reports/eda\summary_stats.json
+2025-04-22 18:21:53,426 - src.utils.eda - INFO - 分布图已保存到 ../reports/eda\distributions.png
+2025-04-22 18:21:53,689 - src.utils.eda - INFO - 目标相关性图已保存到 ../reports/eda\target_correlations.png
+2025-04-22 18:21:53,994 - src.utils.eda - INFO - 空间分布图已保存到 ../reports/eda\spatial_distribution.png
+2025-04-22 18:21:54,387 - src.utils.eda - INFO - 时间序列图已保存到 ../reports/eda\time_series.png
+2025-04-22 18:21:54,387 - src.utils.eda - INFO - 分析报告已生成到目录: ../reports/eda
+2025-04-22 18:21:56,566 - src.models.spatial_temporal_model - INFO - 模型初始化完成，使用设备: cpu
+2025-04-22 18:21:56,567 - src.models.spatial_temporal_model - INFO - 开始训练，总epochs: 10
+2025-04-22 18:21:56,592 - src.models.spatial_temporal_model - INFO - 批次 0/125, 损失: nan
+2025-04-22 18:21:56,778 - src.models.spatial_temporal_model - INFO - 批次 10/125, 损失: nan
+2025-04-22 18:21:56,947 - src.models.spatial_temporal_model - INFO - 批次 20/125, 损失: nan
+2025-04-22 18:21:57,127 - src.models.spatial_temporal_model - INFO - 批次 30/125, 损失: nan
+2025-04-22 18:21:57,310 - src.models.spatial_temporal_model - INFO - 批次 40/125, 损失: nan
+2025-04-22 18:21:57,477 - src.models.spatial_temporal_model - INFO - 批次 50/125, 损失: nan
+2025-04-22 18:21:57,656 - src.models.spatial_temporal_model - INFO - 批次 60/125, 损失: nan
+2025-04-22 18:21:57,823 - src.models.spatial_temporal_model - INFO - 批次 70/125, 损失: nan
+2025-04-22 18:21:58,004 - src.models.spatial_temporal_model - INFO - 批次 80/125, 损失: nan
+2025-04-22 18:21:58,179 - src.models.spatial_temporal_model - INFO - 批次 90/125, 损失: nan
+2025-04-22 18:21:58,356 - src.models.spatial_temporal_model - INFO - 批次 100/125, 损失: nan
+2025-04-22 18:21:58,538 - src.models.spatial_temporal_model - INFO - 批次 110/125, 损失: nan
+2025-04-22 18:21:58,709 - src.models.spatial_temporal_model - INFO - 批次 120/125, 损失: nan
+2025-04-22 18:22:36,137 - src.utils.eda - INFO - 统计摘要已保存到 ../reports/location_eda\summary_stats.json
+2025-04-22 18:22:37,499 - src.utils.eda - INFO - 分布图已保存到 ../reports/location_eda\distributions.png
+2025-04-22 18:22:37,883 - src.utils.eda - INFO - 目标相关性图已保存到 ../reports/location_eda\target_correlations.png
+2025-04-22 18:22:38,100 - src.utils.eda - INFO - 空间分布图已保存到 ../reports/location_eda\spatial_distribution.png
+2025-04-22 18:22:38,101 - src.utils.eda - INFO - 分析报告已生成到目录: ../reports/location_eda
+2025-04-22 18:22:47,293 - src.models.location_selection_model - INFO - 初始化xgboost选址模型
+2025-04-22 18:42:05,014 - src.utils.eda - INFO - 统计摘要已保存到 ../reports/eda\summary_stats.json
+2025-04-22 18:42:08,488 - src.utils.eda - INFO - 分布图已保存到 ../reports/eda\distributions.png
+2025-04-22 18:42:08,748 - src.utils.eda - INFO - 目标相关性图已保存到 ../reports/eda\target_correlations.png
+2025-04-22 18:42:09,040 - src.utils.eda - INFO - 空间分布图已保存到 ../reports/eda\spatial_distribution.png
+2025-04-22 18:42:09,429 - src.utils.eda - INFO - 时间序列图已保存到 ../reports/eda\time_series.png
+2025-04-22 18:42:09,430 - src.utils.eda - INFO - 分析报告已生成到目录: ../reports/eda
+2025-04-22 18:42:11,558 - src.models.spatial_temporal_model - INFO - 模型初始化完成，使用设备: cpu
+2025-04-22 18:42:11,558 - src.models.spatial_temporal_model - INFO - 开始训练，总epochs: 10
+2025-04-22 18:42:11,591 - src.models.spatial_temporal_model - INFO - 批次 0/125, 损失: nan
+2025-04-22 18:42:11,780 - src.models.spatial_temporal_model - INFO - 批次 10/125, 损失: nan
+2025-04-22 18:42:11,959 - src.models.spatial_temporal_model - INFO - 批次 20/125, 损失: nan
+2025-04-22 18:42:12,126 - src.models.spatial_temporal_model - INFO - 批次 30/125, 损失: nan
+2025-04-22 18:42:12,293 - src.models.spatial_temporal_model - INFO - 批次 40/125, 损失: nan
+2025-04-22 18:42:12,453 - src.models.spatial_temporal_model - INFO - 批次 50/125, 损失: nan
+2025-04-22 18:42:12,613 - src.models.spatial_temporal_model - INFO - 批次 60/125, 损失: nan
+2025-04-22 18:42:12,786 - src.models.spatial_temporal_model - INFO - 批次 70/125, 损失: nan
+2025-04-22 18:42:12,949 - src.models.spatial_temporal_model - INFO - 批次 80/125, 损失: nan
+2025-04-22 18:42:13,129 - src.models.spatial_temporal_model - INFO - 批次 90/125, 损失: nan
+2025-04-22 18:42:13,298 - src.models.spatial_temporal_model - INFO - 批次 100/125, 损失: nan
+2025-04-22 18:42:13,459 - src.models.spatial_temporal_model - INFO - 批次 110/125, 损失: nan
+2025-04-22 18:42:13,631 - src.models.spatial_temporal_model - INFO - 批次 120/125, 损失: nan

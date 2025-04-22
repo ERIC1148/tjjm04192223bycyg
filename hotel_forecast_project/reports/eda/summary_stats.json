@@ -1,0 +1,447 @@
+{
+    "numeric": {
+        "is_canceled": {
+            "mean": 0.3032,
+            "median": 0.0,
+            "std": 0.45968687430084504,
+            "min": "0",
+            "max": "1",
+            "skew": 0.856577651037091,
+            "kurtosis": -1.2667816004565264,
+            "missing": "0"
+        },
+        "lead_time": {
+            "mean": 181.7402,
+            "median": 184.0,
+            "std": 103.92889563076,
+            "min": "0",
+            "max": "364",
+            "skew": -0.008576202065769721,
+            "kurtosis": -1.1689531437861682,
+            "missing": "0"
+        },
+        "arrival_date_year": {
+            "mean": 2022.4944,
+            "median": 2022.0,
+            "std": 0.5000186433811701,
+            "min": "2022",
+            "max": "2023",
+            "skew": 0.022408128058639787,
+            "kurtosis": -2.000298155155008,
+            "missing": "0"
+        },
+        "arrival_date_month_num": {
+            "mean": 6.3922,
+            "median": 6.0,
+            "std": 3.459244488972541,
+            "min": "1",
+            "max": "12",
+            "skew": 0.04426066159443223,
+            "kurtosis": -1.2155593926562405,
+            "missing": "0"
+        },
+        "arrival_date_week_number": {
+            "mean": 26.6068,
+            "median": 27.0,
+            "std": 14.768500786576025,
+            "min": "1",
+            "max": "52",
+            "skew": -0.011986979446510834,
+            "kurtosis": -1.1766095513307318,
+            "missing": "0"
+        },
+        "arrival_date_day_of_month": {
+            "mean": 15.623,
+            "median": 16.0,
+            "std": 8.708434897711157,
+            "min": "1",
+            "max": "30",
+            "skew": -0.010127976808003581,
+            "kurtosis": -1.1928212513213874,
+            "missing": "0"
+        },
+        "stays_in_weekend_nights": {
+            "mean": 1.9928,
+            "median": 2.0,
+            "std": 1.4170214359528899,
+            "min": "0",
+            "max": "4",
+            "skew": -0.0045845345538766714,
+            "kurtosis": -1.3058682216849238,
+            "missing": "0"
+        },
+        "stays_in_week_nights": {
+            "mean": 6.9042,
+            "median": 7.0,
+            "std": 4.317354545326804,
+            "min": "0",
+            "max": "14",
+            "skew": 0.02647196062008932,
+            "kurtosis": -1.2110356576932049,
+            "missing": "0"
+        },
+        "adults": {
+            "mean": 2.5242,
+            "median": 3.0,
+            "std": 1.1237735240637579,
+            "min": "1",
+            "max": "4",
+            "skew": -0.038799269412031254,
+            "kurtosis": -1.3715187332201342,
+            "missing": "0"
+        },
+        "children": {
+            "mean": 1.5132,
+            "median": 2.0,
+            "std": 1.1187833102165246,
+            "min": "0",
+            "max": "3",
+            "skew": -0.012474871464398853,
+            "kurtosis": -1.3615888763255406,
+            "missing": "0"
+        },
+        "babies": {
+            "mean": 0.4924,
+            "median": 0.0,
+            "std": 0.49999223838744694,
+            "min": "0",
+            "max": "1",
+            "skew": 0.03041263696815636,
+            "kurtosis": -1.9998751816813438,
+            "missing": "0"
+        },
+        "is_repeated_guest": {
+            "mean": 0.0964,
+            "median": 0.0,
+            "std": 0.29516853642110735,
+            "min": "0",
+            "max": "1",
+            "skew": 2.73580314146903,
+            "kurtosis": 5.486813394373157,
+            "missing": "0"
+        },
+        "previous_cancellations": {
+            "mean": 1.0084,
+            "median": 1.0,
+            "std": 0.8210141611754149,
+            "min": "0",
+            "max": "2",
+            "skew": -0.015519541454960413,
+            "kurtosis": -1.5163191095847697,
+            "missing": "0"
+        },
+        "previous_bookings_not_canceled": {
+            "mean": 2.0296,
+            "median": 2.0,
+            "std": 1.4265801296012903,
+            "min": "0",
+            "max": "4",
+            "skew": -0.036363301629146916,
+            "kurtosis": -1.31150646178111,
+            "missing": "0"
+        },
+        "booking_changes": {
+            "mean": 2.034,
+            "median": 2.0,
+            "std": 1.4219874857684003,
+            "min": "0",
+            "max": "4",
+            "skew": -0.03405028694646892,
+            "kurtosis": -1.307421102140666,
+            "missing": "0"
+        },
+        "agent": {
+            "mean": 10.5262,
+            "median": 11.0,
+            "std": 5.6602933973663285,
+            "min": 1.0,
+            "max": 20.0,
+            "skew": -0.00040180528065523227,
+            "kurtosis": -1.1284854434476654,
+            "missing": "0"
+        },
+        "company": {
+            "mean": 5.0488,
+            "median": 5.0,
+            "std": 0.9294037434095329,
+            "min": 1.0,
+            "max": 10.0,
+            "skew": 1.415192093491936,
+            "kurtosis": 14.734566101567875,
+            "missing": "0"
+        },
+        "days_in_waiting_list": {
+            "mean": 14.471,
+            "median": 15.0,
+            "std": 8.60808798954606,
+            "min": "0",
+            "max": "29",
+            "skew": -0.010021946878265228,
+            "kurtosis": -1.1913515199845346,
+            "missing": "0"
+        },
+        "adr": {
+            "mean": 279.1052061176458,
+            "median": 281.6316209731783,
+            "std": 130.98888702204863,
+            "min": 50.0315374730852,
+            "max": 499.3026499886603,
+            "skew": -0.05228436447283302,
+            "kurtosis": -1.2208348942038023,
+            "missing": "0"
+        },
+        "required_car_parking_spaces": {
+            "mean": 1.0096,
+            "median": 1.0,
+            "std": 0.8141501139726115,
+            "min": "0",
+            "max": "2",
+            "skew": -0.017590173765994935,
+            "kurtosis": -1.4911254595403463,
+            "missing": "0"
+        },
+        "total_of_special_requests": {
+            "mean": 2.0224,
+            "median": 2.0,
+            "std": 1.417286132012869,
+            "min": "0",
+            "max": "4",
+            "skew": -0.0201634288599545,
+            "kurtosis": -1.3014528890696777,
+            "missing": "0"
+        },
+        "latitude": {
+            "mean": 31.200345832056225,
+            "median": 31.200895445791943,
+            "std": 0.05768727991369165,
+            "min": 31.10002029621028,
+            "max": 31.299853765064867,
+            "skew": -0.005027811248829794,
+            "kurtosis": -1.1914705634333274,
+            "missing": "0"
+        },
+        "longitude": {
+            "mean": 121.49988617341677,
+            "median": 121.5006633167808,
+            "std": 0.05802882469319737,
+            "min": 121.40001040748392,
+            "max": 121.5999801748192,
+            "skew": -0.01473715764187432,
+            "kurtosis": -1.2298334059191456,
+            "missing": "0"
+        },
+        "arrival_dayofweek": {
+            "mean": 2.9748,
+            "median": 3.0,
+            "std": 2.009122264685475,
+            "min": "0",
+            "max": "6",
+            "skew": 0.01217996210601571,
+            "kurtosis": -1.2694692962428484,
+            "missing": "0"
+        },
+        "arrival_quarter": {
+            "mean": 2.4726,
+            "median": 2.0,
+            "std": 1.116556572555078,
+            "min": "1",
+            "max": "4",
+            "skew": 0.03639277605608007,
+            "kurtosis": -1.355346437863102,
+            "missing": "0"
+        },
+        "arrival_is_weekend": {
+            "mean": 0.2824,
+            "median": 0.0,
+            "std": 0.45021192582563946,
+            "min": "0",
+            "max": "1",
+            "skew": 0.9670426852008317,
+            "kurtosis": -1.0652547069484588,
+            "missing": "0"
+        },
+        "total_nights": {
+            "mean": 8.897,
+            "median": 9.0,
+            "std": 4.556769012004641,
+            "min": "0",
+            "max": "18",
+            "skew": 0.007801659470274853,
+            "kurtosis": -1.0093835751883078,
+            "missing": "0"
+        },
+        "weekend_ratio": {
+            "mean": 0.2732519072267602,
+            "median": 0.2222222222222222,
+            "std": 0.2580003161394274,
+            "min": 0.0,
+            "max": 1.0,
+            "skew": 1.267559495310986,
+            "kurtosis": 1.2369889320170309,
+            "missing": "0"
+        },
+        "total_guests": {
+            "mean": 4.5298,
+            "median": 5.0,
+            "std": 1.6614644301972168,
+            "min": "1",
+            "max": "8",
+            "skew": -0.01909229021545009,
+            "kurtosis": -0.6225611047907815,
+            "missing": "0"
+        },
+        "has_children": {
+            "mean": 0.8724,
+            "median": 1.0,
+            "std": 0.33367725139964266,
+            "min": "0",
+            "max": "1",
+            "skew": -2.232990220610778,
+            "kurtosis": 2.987440141463554,
+            "missing": "0"
+        },
+        "avg_price_month_hotel": {
+            "mean": 279.1052061176459,
+            "median": 277.36235236957344,
+            "std": 9.495857812145115,
+            "min": 259.72367910568494,
+            "max": 300.80748627597126,
+            "skew": 0.5095456311413679,
+            "kurtosis": -0.23702564045908625,
+            "missing": "0"
+        },
+        "price_ratio": {
+            "mean": 1.0,
+            "median": 1.0086881505049725,
+            "std": 0.46920001504172815,
+            "min": 0.1688380631114663,
+            "max": 1.920562793550496,
+            "skew": -0.038576950153467,
+            "kurtosis": -1.1989492436609357,
+            "missing": "0"
+        },
+        "is_returning_customer": {
+            "mean": 0.0964,
+            "median": 0.0,
+            "std": 0.29516853642110735,
+            "min": "0",
+            "max": "1",
+            "skew": 2.73580314146903,
+            "kurtosis": 5.486813394373157,
+            "missing": "0"
+        },
+        "is_peak_season": {
+            "mean": 0.5016,
+            "median": 1.0,
+            "std": 0.5000474472386576,
+            "min": "0",
+            "max": "1",
+            "skew": -0.00640195351437744,
+            "kurtosis": -2.000759478878808,
+            "missing": "0"
+        },
+        "total_price": {
+            "mean": 2479.2271757709705,
+            "median": 2059.9821082516887,
+            "std": 1815.0528707480105,
+            "min": 0.0,
+            "max": 8909.432546335795,
+            "skew": 0.8479956765465304,
+            "kurtosis": 0.01853488559896377,
+            "missing": "0"
+        }
+    },
+    "categorical": {
+        "hotel": {
+            "unique_values": 2,
+            "top_value": "Resort Hotel",
+            "top_freq": "2525",
+            "missing": "0"
+        },
+        "arrival_date_month": {
+            "unique_values": 12,
+            "top_value": "April",
+            "top_freq": "451",
+            "missing": "0"
+        },
+        "meal": {
+            "unique_values": 4,
+            "top_value": "BB",
+            "top_freq": "1285",
+            "missing": "0"
+        },
+        "country": {
+            "unique_values": 8,
+            "top_value": "CHN",
+            "top_freq": "645",
+            "missing": "0"
+        },
+        "market_segment": {
+            "unique_values": 5,
+            "top_value": "Online TA",
+            "top_freq": "1027",
+            "missing": "0"
+        },
+        "distribution_channel": {
+            "unique_values": 3,
+            "top_value": "Corporate",
+            "top_freq": "1705",
+            "missing": "0"
+        },
+        "reserved_room_type": {
+            "unique_values": 8,
+            "top_value": "F",
+            "top_freq": "665",
+            "missing": "0"
+        },
+        "assigned_room_type": {
+            "unique_values": 8,
+            "top_value": "C",
+            "top_freq": "654",
+            "missing": "0"
+        },
+        "deposit_type": {
+            "unique_values": 3,
+            "top_value": "No Deposit",
+            "top_freq": "4018",
+            "missing": "0"
+        },
+        "customer_type": {
+            "unique_values": 4,
+            "top_value": "Transient",
+            "top_freq": "3499",
+            "missing": "0"
+        },
+        "reservation_status": {
+            "unique_values": 3,
+            "top_value": "Check-Out",
+            "top_freq": "3144",
+            "missing": "0"
+        },
+        "reservation_status_date": {
+            "unique_values": 730,
+            "top_value": "2022-07-21",
+            "top_freq": "18",
+            "missing": "0"
+        },
+        "arrival_date": {
+            "unique_values": 716,
+            "top_value": "2022-02-01",
+            "top_freq": "34",
+            "missing": "0"
+        },
+        "lead_time_group": {
+            "unique_values": 5,
+            "top_value": "six_months",
+            "top_freq": "2559",
+            "missing": "7"
+        },
+        "season": {
+            "unique_values": 4,
+            "top_value": "spring",
+            "top_freq": "1294",
+            "missing": "0"
+        }
+    },
+    "datetime": {}
+}
